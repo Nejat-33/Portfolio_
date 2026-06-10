@@ -528,8 +528,8 @@ function About() {
             </p>
             <div style={{ borderLeft: `2px solid ${T.border}`, paddingLeft: 20, marginBottom: 40 }}>
               {[
-                { degree: "B.Sc. Computer Science", school: "University of Gondar", year: "2021 – Present", active: true },
-                { degree: "High School Diploma",     school: "Excellence Secondary School", year: "2018 – 2021", active: false },
+                { degree: "B.Sc. Computer Science", school: "University of Gondar", year: "2023 – Present", active: true },
+                { degree: "High School Diploma",     school: "Excellence Secondary School", year: "2019 – 2022", active: false },
               ].map(({ degree, school, year, active }) => (
                 <div key={degree} style={{ marginBottom: 24, position: "relative" }}>
                   <div style={{
